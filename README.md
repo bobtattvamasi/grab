@@ -2,7 +2,7 @@
 `coded by Winnie `
 
 :rocket: **introduction**
-> the GRAB LANDING PAGE is coded in HTML and CSS
+> the GRAB LANDING PAGE is coded in HTML5 and CSS3
 
 :godmode: **Instructed by** Khoa Vo and Charles Lee
 
