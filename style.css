@@ -81,32 +81,37 @@ li .line {
   position: relative;
 }
 
-.carousel-caption {
-  position: absolute;
-  height: 667.1px;
+.carousel-caption.caption-banner {
+  left: 12%;
+  right: auto;
   top: 20%;
-  left: 50%;
+  position: absolute;
   width: 35%;
 }
 
-.carousel-caption h1 {
+.carousel-caption.caption-banner h1 {
   font-size: 50px;
   font-weight: 600;
   line-height: 50px;
   text-align: left;
 }
 
-.carousel-caption p {
+.carousel-caption.caption-banner p {
   font-size: 23px;
   font-weight: 400;
   line-height: 23px;
   text-align: left; 
 }
 
-/* .carousel-caption.btn{
-  text-align: left!important;
-  
-} */
+.carousel-caption.caption-banner .btn{
+  float: left;
+  padding: 15px 30px;
+  margin-top: 20px;
+  background-color: #00BA51;
+  opacity: 1;
+  border: none;  
+  font-size: 18px;
+}
 
 #section-2 header {
   text-align: center;
@@ -150,9 +155,6 @@ li .line {
   width: 50%;
   z-index: 15;
   list-style: none;
-  /* position: static; */
-  /* bottom: 20px; */
-  /* margin-left: -30%; */
 }
 
 
@@ -206,19 +208,20 @@ li .line {
 }
 
 #section-4 {
-  background-image: url(./img/bike-2-2.jpg);
-  height: 550px;
+  position: relative;
 }
 
 #section-4 header{
   color: #fff;
-  margin-top: -20px;
+  position: absolute;
+  top: 50px;
+  z-index: 1;
+  width: 100%;
 }
 
 #section-4 header h2 {
   font-weight: 600;
   font-size: 2.571em;
-  padding-top: 80px;
   margin-bottom: 23px;
 }
 
@@ -226,6 +229,33 @@ li .line {
   font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 1.35em;
+} 
+
+.services {
+  height: 550px;
+  position: relative;
+}
+
+.caption-service {
+  width: 360px;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  padding: 5px 30px;
+  left: 50% !important;
+  right: auto !important;
+  margin-left: -180px;
+  
+}
+
+.caption-service h1 {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.caption-service p {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
 }
 
 #section-5 {
@@ -304,6 +334,9 @@ li .line {
   margin-bottom: 30px;
 }
 
+#section-6 .news:hover {
+  opacity: 0.7;
+}
 .row {
   padding-right: 8%;
   padding-left: 10%;
