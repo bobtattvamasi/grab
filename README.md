@@ -13,12 +13,9 @@ If you think any of the code can be improved, please do open a PR with any updat
 
 :art: **Video Walkthrough**
 
-**see the landing page on Imgur at**
-[Imgur](https://i.imgur.com/yO6sfhz.gifv)
-
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 
-![grab-landing-page](https://github.com/winnie1312/grab/blob/master/grab-landingpage-winnie.gif)
+![grab-landing-page](https://github.com/winnie1312/grab/blob/master/grab-landing-page.gif)
 
 
